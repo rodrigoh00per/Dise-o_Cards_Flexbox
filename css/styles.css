@@ -1,0 +1,73 @@
+body {
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.contenedor {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media(min-width:480px) {
+    .contenido-principal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .entrada {
+        flex: 0 1 calc(50% - 1rem);
+    }
+}
+
+@media(min-width:750px) {
+    .entrada {
+        flex: 0 1 calc(33% - 1rem);
+    }
+}
+
+.contenido-principal h2 {
+    flex: 0 1 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: "Libre Baskerville", serif;
+    margin: 0;
+    font-weight: 700;
+}
+
+.contenido {
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.boton {
+    background-color: darkcyan;
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+span {
+    color: #db008d;
+}
+
+.contenido h3 {
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    text-transform: uppercase;
+}
+
+.entrada {
+    margin-bottom: 1rem;
+}
